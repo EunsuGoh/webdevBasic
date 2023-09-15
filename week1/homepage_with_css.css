@@ -1,0 +1,8 @@
+body {background-color: lightgrey;}
+h2 {color:red;}
+h3 {color:green;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+li{color:blueviolet}
+img{
+    padding: 5%;
+}

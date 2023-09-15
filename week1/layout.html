@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+    <style>
+        body {
+            background-color: lightpink;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+           background-color: violet;
+           text-align: center;
+           margin: 0px;
+           padding: 5px;
+        }
+        h1 {
+            margin:0px;
+        }
+        section#main {
+            float: right;
+            width:70%;
+            height: 200px;
+            background-color: yellow;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 200px;
+            background-color: darkgoldenrod;
+        }
+        footer{
+            background-color: brown;
+            text-align: center;
+            padding:10px;
+            margin:0px 0px 0px 0px;
+            font-size: 90%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>My Webpage</header>
+    <nav>
+        <h1>Links</h1>
+        <ul>
+            <li>list1</li>
+            <li>list2</li>
+        </ul>
+    </nav>
+    <section id="main">
+        <article>
+            <h1>Semantic Tags</h1>
+            <p>시맨틱 요소로 레이아웃을 작성해 봅시다.</p>
+        </article>
+    </section>
+    <footer> Copyright (c) 2023, 02-123-4567 </footer>
+</body>
+</html>
