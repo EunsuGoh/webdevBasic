@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <h2 id="test"></h2>
+    <script>
+        let admin = ["Kim", "Lee", "Choi"]
+        person = prompt("아이디를 입력하시오: ", "");
+        document.getElementById("test").innerHTML = "로그인 실패";
+        for (i = 0; i < admin.length; i++) {
+            if (person == admin[i]) {
+                document.getElementById("test").innerHTML = "로그인 성공";
+                break;
+            }
+        }
+    </script>
+</body>
+</html>

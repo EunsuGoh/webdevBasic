@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function checkID() {
+        let s = document.getElementById('id').value;
+        if (s.length < 6) alert('아이디는 6글자 이상이어야 합니다.');
+      }
+    </script>
+  </head>
+  <body>
+    아이디: <input type="text" id="id" size="10" />
+    <button onclick="checkID()">검사</button>
+  </body>
+</html>
