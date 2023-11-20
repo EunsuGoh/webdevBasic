@@ -17,7 +17,7 @@ function EventHandler() {
   };
   // NAME 핸들러
   const handleName = (e) => {
-    setPasswd(e.target.value);
+    setName(e.target.value);
   };
 
   // 버튼 핸들러

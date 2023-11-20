@@ -2,10 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
 const cors = require('cors');
+
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '1234', // your password
+  password: '960325', // your password
   port: 3306,
   database: 'hellokwangwoon',
 });
